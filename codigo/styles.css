@@ -1,0 +1,183 @@
+    body {
+        min-height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: rgb(0, 0, 0);
+    }
+    .paidetudo{
+        background-color: #5c88ff1f;
+        border-radius: 46px;
+        width: 870px;
+        padding-bottom: 50px;
+        border: 1px solid rgba(89, 0, 255, 0.155);
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding-top: 10px;
+        padding-bottom: 100px;
+
+    }
+    .cabecalho {    
+        display: block;
+        width: 90%; 
+        text-align: center;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .cabecalho h1 {
+        text-align: center;
+        font-family: 'Unbounded', cursive;
+        color: rgb(255, 255, 255);
+    }
+
+    .escolha {
+        text-align: center;
+        color: white;
+        margin: 0 auto;
+        font-size: 20px;
+        border-bottom: 1px solid rgb(53, 243, 218);
+        width: 140px;
+        padding: 3px;
+        margin-top: 10px;
+
+    }
+
+    .tier {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .tier button {
+        margin: 5px;
+        padding: 7px 5px 7px 5px;
+        border-radius: 0;
+        border: none;
+        font-family: Monospace;
+        font-size: 17px;
+        cursor: pointer;
+        background-color: #00a2ff5e;
+        color: white;
+        border-radius: 2px;
+        box-shadow: 2px 2px 0px #80e6e7;
+    }
+
+    .tier button:hover {
+        transform: scale(1.2);
+        box-shadow: 2px 2px 0px rgb(255, 0, 0);
+    }
+    .tier button:active {
+        box-shadow: 2px 2px 0px rgb(255, 255, 255);
+        transform: scale(1);
+    }
+    .resultadoGeral{
+        display: flex;
+        justify-content: center;
+    }
+
+    .tabela{
+        width: 380px; 
+    }
+    .tabela.active{
+        border: 2px solid #ffffff;
+
+    }
+    .resultadoImagemAviao{
+        margin-top: 50px;
+        justify-content: center;
+        align-items: center;
+        display: inline-block;
+    }
+    .resultadoImagemAviao h2{
+        font-family: 'Unbounded', cursive;
+        color: white;
+        text-align: center;
+        font-size: 22px;
+        font-weight: 200;
+    }
+    .aviaoResultadoTexto{ 
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-family:Comic Sans MS, Comic Sans, cursive;
+        transition: border-color 2s ease;
+
+    }
+    .aviaoResultadoTexto.active{
+        color: rgb(255, 255, 255);
+        font-weight:bolder;
+        font-size: 18px;
+    }
+    .aviaoResultadoTextoBorda::before {
+        content: "\2605";
+        display: inline-block;
+        margin-right: 5px;
+    }
+    .aviaoResultadoTextoBorda{
+        border-bottom: 1px solid rgb(53, 243, 218);
+        width: 90px;
+        margin-top: 6px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .imagemDoAviao {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        margin-bottom: 30px;
+        width: 240px;
+    }
+    .especificacoes{
+        margin-top: 50px;
+        justify-content: center;
+        align-items: center;
+        display: inline-block;
+        margin-left: 15px;
+        
+    }
+    .motivo{
+        border:  1px rgba(7, 7, 184, 0.281) solid;
+        transition: border-color 0.1s ease;
+        width: 380px; 
+        padding-bottom: 50px;
+    }
+    .motivo.active{
+        border: 2px solid #ffffff;
+    }
+
+    .motivo h3{
+        font-family: 'Unbounded', cursive;
+        color: white;
+        text-align: center;
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    .especificacoesTexto {
+        color: white;
+        text-align: center;
+        padding-left: 7px;
+        padding-right: 7px;
+        font-family: FreeMono, monospace;
+        
+    }
+    .especificacoesTexto.active{
+        color: rgb(221, 255, 143);
+        font-weight:bolder;
+        font-size: 20px;
+    }
+    .fim{
+        display: flex;
+        color: white;
+        justify-content: center;
+        margin-top: 100px;
+    }
